@@ -32,16 +32,20 @@ A collection of ready-to-use `Dockerfile` templates for various technologies and
 
 ```text
 .
-├── debian/
-│   └── Dockerfile
-├── python/
-│   ├── app.py
-│   └── Dockerfile
-├── rockylinux/
-│   └── Dockerfile
-└── ubuntu/
-    ├── flask/
-    │   └── Dockerfile
-    └── ns3/
+├── debian
+│   ├── base
+│   │   └── Dockerfile
+│   └── git_server
+│       ├── Dockerfile
+│       └── startup.sh
+├── python
+│   ├── app.py
+│   └── Dockerfile
+├── rockylinux
+│   └── Dockerfile
+└── ubuntu
+    ├── flask
+    │   └── Dockerfile
+    └── ns3
         └── Dockerfile
 ```
