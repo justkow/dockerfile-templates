@@ -46,6 +46,8 @@ A collection of ready-to-use `Dockerfile` templates for various technologies and
 └── ubuntu
     ├── flask
     │   └── Dockerfile
+    ├── azure_terraform
+    │   └── Dockerfile
     └── ns3
         └── Dockerfile
 ```
